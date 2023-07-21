@@ -1,0 +1,17 @@
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+  background-image: url('vendedores.jpg');
+  background-color: rgb(240, 235, 235);
+  }
+
+  :root {
+    --color-default: #d54242;
+    --color-primary: #27a776;
+    --color-secondary: #161718;
+  }
+  :root {
+    --font-default: "Open Sans", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Cardo", sans-serif;
+  }

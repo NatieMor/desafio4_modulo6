@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1> mascota </h1>
+
+<div id="pets">
+  <% @pets.each do |pet| %>
+    <%= render pet %>
+    <p>
+      <%= link_to "mostra mascota", pet , class:"btn btn-primary"%>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Nueva mascota", new_pet_path, class:"btn btn-primary"%>
